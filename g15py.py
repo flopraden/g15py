@@ -1,4 +1,4 @@
-#Interact with the g15 LCD screen using python!
+#Interact with the g15 LCD screen using python on Windows!
 
 from ctypes import *
 import time
@@ -35,5 +35,6 @@ if __name__ == '__main__':
         init('Name of script')
         set_text('Sample text', line=0)
         set_text('More text', line=1)
+        time.sleep(3)
     finally:
         shutdown()
