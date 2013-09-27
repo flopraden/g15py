@@ -35,9 +35,5 @@ if __name__ == '__main__':
         init('Name of script')
         set_text('Sample text', line=0)
         set_text('More text', line=1)
-        time.sleep(3)
-        set_text('Sample textz', line=0)
-        set_text('More textz', line=1)
-        time.sleep(3)
     finally:
         shutdown()
