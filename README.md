@@ -17,3 +17,5 @@ try:
 finally:
     shutdown()
 ```
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/eeb7663a58f1d52bc511181a393263c0 "githalytics.com")](http://githalytics.com/tom-churchill/g15py)
